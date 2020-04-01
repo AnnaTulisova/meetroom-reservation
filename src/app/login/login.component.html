@@ -1,0 +1,15 @@
+<div class="container login-form">
+  <p class="login-text">
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-lock fa-stack-1x"></i>
+    </span>
+  </p>
+  <input type="text" class="login-username" autofocus="true" required="true" placeholder="Email" [(ngModel)]="username" />
+  <input type="password" class="login-password" required="true" placeholder="Password" [(ngModel)]="password" />
+  <button (click)=checkLogin() class="btn btn-success login-submit">
+    Login
+  </button>
+</div>
+<div class="underlay-photo"></div>
+<div class="underlay-black"></div>

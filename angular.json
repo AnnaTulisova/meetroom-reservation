@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "meetroom-reservation"
+    }
+  },
+  "defaultProject": "meetroom-reservation",
+  "cli": {
+    "analytics": "05372864-5b67-4fdb-a4ed-1cc97837de76"
+  }
 }
