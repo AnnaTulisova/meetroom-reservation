@@ -1,0 +1,11 @@
+.bg-dark{
+  background-color: #550000!important;
+}
+.navbar-main{
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-left: 2em;
+}
+.login-link{
+   margin-left:82%;
+}
