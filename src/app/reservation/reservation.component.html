@@ -1,0 +1,18 @@
+<table border="1">
+  <thead></thead>
+  <tr>
+    <th>datetime</th>
+    <th>duration</th>
+    <th>users</th>
+    <th>meetroom</th>
+  </tr>
+
+  <tbody>
+  <tr *ngFor="let reservation of reservations">
+    <td>{{reservation.datetime}}</td>
+    <td>{{reservation.duration}}</td>
+    <td> {{reservation.users | json}}</td>
+    <td>{{reservation.meetroom | json}}</td>
+  </tr>
+  </tbody>
+</table>
